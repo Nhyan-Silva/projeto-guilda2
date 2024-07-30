@@ -91,8 +91,6 @@ margin-top:40px;
 margin-bottom:-21px;
 border-top-right-radius:10px;
 border-top-left-radius:10px ;
-margin-left:30px;
-margin-right:30px;
 }
 
 
@@ -125,9 +123,8 @@ aside  ul{background-color:#40d77a;
     padding-bottom: 10px;
     column-gap:-px;
     padding-bottom:50px;
-    font-size:1.3em;
-    margin-left:30px;
-    margin-right:30px;}
+    font-size:1.2em;;
+    }
 
 
 
