@@ -1,0 +1,142 @@
+@charset "utf8";
+
+header{
+padding-top:40px;
+text-align: center;
+background-image:linear-gradient(to bottom,#40d77a,#22482f, #1a3928 );
+}
+
+header > h1{font-size:2em;
+font-family:"Orbitron";
+color: aliceblue;
+margin-top:20px;
+padding-bottom:;
+}
+
+header > p{color: aliceblue;
+font-size:1.3em;
+padding: 40px 0px 40px 0px ;
+}
+
+nav{
+font-size:1.5em;
+margin-bottom:-;
+text-align: left;
+min-height: 30px;
+padding-top:30px ;
+}
+
+nav > a:hover{color: black;
+background-color:silver;
+border-radius: 8px;
+transition-duration:1s;}
+
+a.menu{color: aliceblue;
+padding: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight:bold;
+text-decoration: none;
+margin-left: 15px;
+
+}
+    
+
+
+
+main{background-color:white;
+min-width:300px;
+max-width:1000px;
+margin:auto;
+padding: 20px;
+box-shadow: 0px 0px 5px black;
+border-bottom-right-radius:20px;
+border-bottom-left-radius:20px ;
+margin-bottom:80px;
+line: height 1.2em;
+}
+
+main > p{font-family:Arial, Helvetica, sans-serif;
+text-indent:15px;
+text-align: justify;
+margin-bottom: 50px;
+text-decoration-line:;
+line-height:1.4em;
+font-size:1.2em;
+}
+
+img{width:100%;
+min-width:280px;
+max-width:600px;
+display: block;
+margin: auto;}
+
+
+
+body{background-color:beige; 
+margin:0px;
+padding: 0px;}
+
+
+
+
+
+
+h1#anuncio{background-color: black;
+height:25px;
+color: white;
+font-size:20px;
+text-align: center;
+margin-top:40px;
+margin-bottom:-19px;
+border-top-right-radius:10px;
+border-top-left-radius:10px ;
+}
+
+
+
+h2#secundario{text-align: center;
+font-family:"Orbitron";
+padding-top:10px;
+padding-bottom: 10px;}
+
+
+h3{text-align: center;
+padding-top: 25px;
+padding-bottom: 25px;
+font-size:1.2em;}
+
+h4{text-align: center;
+text-decoration:underline;
+margin-top:40px;
+margin-bottom: 40px;
+text-align:center;
+font-size:1.7em;
+border-radius: 20px;
+left:15px;
+}
+
+
+aside  ul{background-color:#40d77a;
+    list-style-position: inside;columns:3;
+    border-radius:0px 0px 10px 10px ;
+    padding-bottom: 10px;
+    column-gap:-15px;
+    padding-bottom:50px;
+    font-size:1.em;
+    }
+
+
+
+
+
+div.videos{background-color: darkgreen;
+    margin:0px -20px 30px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom:57% ;}
+    
+    div.videos > iframe{position: absolute;
+    top:4% ;
+    left:2%;
+    width:95%;
+    height:90%;}
