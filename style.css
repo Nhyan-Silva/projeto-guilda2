@@ -14,8 +14,9 @@ padding-bottom:;
 }
 
 header > p{color: aliceblue;
-font-size:1.3em;
+font-size:1.5em;
 padding: 40px 0px 40px 0px ;
+margin-left:3px;
 }
 
 nav{
@@ -82,14 +83,16 @@ padding: 0px;}
 
 
 h1#anuncio{background-color: black;
-height:25px;
+height:30px;
 color: white;
 font-size:20px;
 text-align: center;
 margin-top:40px;
-margin-bottom:-19px;
+margin-bottom:-21px;
 border-top-right-radius:10px;
 border-top-left-radius:10px ;
+margin-left:30px;
+margin-right:30px;
 }
 
 
@@ -117,13 +120,14 @@ left:15px;
 
 
 aside  ul{background-color:#40d77a;
-    list-style-position: inside;columns:3;
+    list-style-position: inside;columns:2;
     border-radius:0px 0px 10px 10px ;
     padding-bottom: 10px;
-    column-gap:-15px;
+    column-gap:-px;
     padding-bottom:50px;
-    font-size:1.em;
-    }
+    font-size:1.3em;
+    margin-left:30px;
+    margin-right:30px;}
 
 
 
@@ -140,3 +144,5 @@ div.videos{background-color: darkgreen;
     left:2%;
     width:95%;
     height:90%;}
+
+li > mark#vermelho{background-color: rgb(233, 73, 73);}
