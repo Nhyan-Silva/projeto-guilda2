@@ -13,7 +13,7 @@ font-family:"Orbitron";}
 
 header > p{color: aliceblue;
 padding-top: 5px;
-font-size: max(25px,2vw)
+font-size:1.3em;
 }
 
 nav{background-color: #1a3928;
@@ -116,13 +116,14 @@ left:15px;
 
 
 aside  ul{background-color:#40d77a;
-    list-style-position: inside;columns:2;
+    list-style-position:outside;columns:2;
     border-radius:0px 0px 10px 10px ;
     padding-bottom: 10px;
-    column-gap:40px;
+    column-gap:;
     padding-bottom:50px;
-    font-size:1.3em;
+    font-size:1em;
     list-style-type:circle;
+    
     }
 
 
@@ -142,3 +143,7 @@ div.videos{background-color: darkgreen;
     height:90%;}
 
 li > mark#vermelho{background-color: rgb(233, 73, 73);}
+
+aside ol{list-style-position: inside;columns:2;
+list-style-type: circle;
+column-gap:-;}
