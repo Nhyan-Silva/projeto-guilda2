@@ -144,6 +144,6 @@ div.videos{background-color: darkgreen;
 
 li > mark#vermelho{background-color: rgb(233, 73, 73);}
 
-aside ol{list-style-position: inside;columns:2;
+aside ol{list-style-position:outside;columns:2;
 list-style-type: circle;
-column-gap:-;}
+font-size: 1em;}
