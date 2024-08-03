@@ -50,7 +50,7 @@ box-shadow: 0px 0px 5px black;
 border-bottom-right-radius:20px;
 border-bottom-left-radius:20px ;
 margin-bottom:80px;
-line: height 1.2em;
+line: height 1em;
 font-size:18px;
 }
 
@@ -89,6 +89,8 @@ margin-top:40px;
 margin-bottom:-25px;
 border-top-right-radius:10px;
 border-top-left-radius:10px ;
+max-width: 843px;
+margin: auto;
 }
 
 
@@ -123,8 +125,8 @@ aside  ul{background-color:#40d77a;
     padding-bottom:50px;
     font-size:1em;
     list-style-type:circle;
-
-    
+max-width:800px;
+margin: auto;
     }
 
 
@@ -146,5 +148,6 @@ div.videos{background-color: darkgreen;
 li > mark#vermelho{background-color: rgb(233, 73, 73);}
 
 aside ol{list-style-position:outside;columns:2;
+max-width:280px;
 list-style-type: circle;
 font-size: 1em;}
